@@ -1,0 +1,175 @@
+{
+  "title": "Elitestudiengang Software Engineering Alumni e.V.",
+  "pages": {
+    "home": {
+      "path": "/",
+      "url": "https://www.se-alumni.de/",
+      "pdf_count": 0,
+      "text_blocks_count": 20
+    },
+    "mitgliedschaft": {
+      "path": "/verein/mitgliedschaft/",
+      "url": "https://www.se-alumni.de/verein/mitgliedschaft/",
+      "pdf_count": 1,
+      "text_blocks_count": 5
+    },
+    "satzung": {
+      "path": "/verein/satzung/",
+      "url": "https://www.se-alumni.de/verein/satzung/",
+      "pdf_count": 1,
+      "text_blocks_count": 7
+    },
+    "beitragsordnung": {
+      "path": "/verein/beitrags--und-kassenordnung/",
+      "url": "https://www.se-alumni.de/verein/beitrags--und-kassenordnung/",
+      "pdf_count": 1,
+      "text_blocks_count": 7
+    },
+    "veranstaltungen": {
+      "path": "/veranstaltungen/",
+      "url": "https://www.se-alumni.de/veranstaltungen/",
+      "pdf_count": 0,
+      "text_blocks_count": 10
+    },
+    "impressum": {
+      "path": "/impressum/",
+      "url": "https://www.se-alumni.de/impressum/",
+      "pdf_count": 0,
+      "text_blocks_count": 3
+    },
+    "datenschutz": {
+      "path": "/datenschutz/",
+      "url": "https://www.se-alumni.de/datenschutz/",
+      "pdf_count": 0,
+      "text_blocks_count": 3
+    },
+    "widerruf": {
+      "path": "/widerruf/",
+      "url": "https://www.se-alumni.de/widerruf/",
+      "pdf_count": 0,
+      "text_blocks_count": 0
+    },
+    "cookie-einstellungen": {
+      "path": "/cookie-einstellungen/",
+      "url": "https://www.se-alumni.de/cookie-einstellungen/",
+      "pdf_count": 0,
+      "text_blocks_count": 0
+    }
+  },
+  "all_images": [
+    {
+      "filename": "image_1.jpg",
+      "url": "https://storage.e.jimdo.com/cdn-cgi/image/quality=85"
+    },
+    {
+      "filename": "01870292-1f66-4b8c-be68-73247dd619be.jpg",
+      "url": "https://storage.e.jimdo.com/image/01870292-1f66-4b8c-be68-73247dd619be.jpg"
+    },
+    {
+      "filename": "049e25ee-816f-4a69-b34f-1ada43d3f6d7.jpg",
+      "url": "https://storage.e.jimdo.com/image/049e25ee-816f-4a69-b34f-1ada43d3f6d7.jpg"
+    },
+    {
+      "filename": "1c81ca3a-b439-4d34-901b-e89f2ee37bb0.jpg",
+      "url": "https://storage.e.jimdo.com/image/1c81ca3a-b439-4d34-901b-e89f2ee37bb0.jpg"
+    },
+    {
+      "filename": "1ec1ae4a-c4af-48c2-b071-bfdd747400b2.jpg",
+      "url": "https://storage.e.jimdo.com/image/1ec1ae4a-c4af-48c2-b071-bfdd747400b2.jpg"
+    },
+    {
+      "filename": "2dc5083f-4829-4967-8a67-b766c49d73e8.jpg",
+      "url": "https://storage.e.jimdo.com/image/233624988/2dc5083f-4829-4967-8a67-b766c49d73e8.jpg"
+    },
+    {
+      "filename": "7e93520d-6ef7-4148-9ba7-7d7ba0233535.jpg",
+      "url": "https://storage.e.jimdo.com/image/357986033/7e93520d-6ef7-4148-9ba7-7d7ba0233535.jpg"
+    },
+    {
+      "filename": "15a48f22-5732-49f0-9d49-6ab7c8af5609.jpg",
+      "url": "https://storage.e.jimdo.com/image/357986125/15a48f22-5732-49f0-9d49-6ab7c8af5609.jpg"
+    },
+    {
+      "filename": "ee219889-1aca-44b1-b3c7-e20e43f567ea.png",
+      "url": "https://storage.e.jimdo.com/image/357986443/ee219889-1aca-44b1-b3c7-e20e43f567ea.png"
+    },
+    {
+      "filename": "3fee7ec5-cf0c-4bac-8aa3-72c10e2b61a9.jpg",
+      "url": "https://storage.e.jimdo.com/image/394529692/3fee7ec5-cf0c-4bac-8aa3-72c10e2b61a9.jpg"
+    },
+    {
+      "filename": "9ad73315-c749-4faf-a870-3a9341baff91.png",
+      "url": "https://storage.e.jimdo.com/image/394529904/9ad73315-c749-4faf-a870-3a9341baff91.png"
+    },
+    {
+      "filename": "39981b29-5bba-44ed-a952-bbd960be1bf6.jpg",
+      "url": "https://storage.e.jimdo.com/image/39981b29-5bba-44ed-a952-bbd960be1bf6.jpg"
+    },
+    {
+      "filename": "ad6b1360-861c-42c3-9889-a43204d5de8e.png",
+      "url": "https://storage.e.jimdo.com/image/419129487/ad6b1360-861c-42c3-9889-a43204d5de8e.png"
+    },
+    {
+      "filename": "053af017-1a8a-4528-8922-d9e01d96245e.jpg",
+      "url": "https://storage.e.jimdo.com/image/453532624/053af017-1a8a-4528-8922-d9e01d96245e.jpg"
+    },
+    {
+      "filename": "530334ce-fe1b-4ec1-b612-36e902d18dd3.jpg",
+      "url": "https://storage.e.jimdo.com/image/530334ce-fe1b-4ec1-b612-36e902d18dd3.jpg"
+    },
+    {
+      "filename": "5eb5710e-f4c0-4757-bf2d-8432ed008025.jpg",
+      "url": "https://storage.e.jimdo.com/image/5eb5710e-f4c0-4757-bf2d-8432ed008025.jpg"
+    },
+    {
+      "filename": "6c572676-c1fa-4078-a875-35b7d4b387eb.jpg",
+      "url": "https://storage.e.jimdo.com/image/6c572676-c1fa-4078-a875-35b7d4b387eb.jpg"
+    },
+    {
+      "filename": "9ca5a1af-e4f2-4529-baa3-2c46cdf01754.jpg",
+      "url": "https://storage.e.jimdo.com/image/9ca5a1af-e4f2-4529-baa3-2c46cdf01754.jpg"
+    },
+    {
+      "filename": "a31b44af-5e83-4a41-9b2b-6299fefb80a6.png",
+      "url": "https://storage.e.jimdo.com/image/a31b44af-5e83-4a41-9b2b-6299fefb80a6.png"
+    },
+    {
+      "filename": "cb2ff20f-f66b-4345-ba92-f799061bd595.jpg",
+      "url": "https://storage.e.jimdo.com/image/cb2ff20f-f66b-4345-ba92-f799061bd595.jpg"
+    },
+    {
+      "filename": "d8d682e0-dd32-4390-b54b-59e0c91b4b5b.jpg",
+      "url": "https://storage.e.jimdo.com/image/d8d682e0-dd32-4390-b54b-59e0c91b4b5b.jpg"
+    },
+    {
+      "filename": "db05bc70-14e1-4219-8006-13718f260cea.jpg",
+      "url": "https://storage.e.jimdo.com/image/db05bc70-14e1-4219-8006-13718f260cea.jpg"
+    },
+    {
+      "filename": "f6391a1d-dce2-484a-b119-87528f94c7fc.jpg",
+      "url": "https://storage.e.jimdo.com/image/f6391a1d-dce2-484a-b119-87528f94c7fc.jpg"
+    },
+    {
+      "filename": "f63fd3ca-d2fb-4b70-a7ed-dcc9adaaf038.jpg",
+      "url": "https://storage.e.jimdo.com/image/f63fd3ca-d2fb-4b70-a7ed-dcc9adaaf038.jpg"
+    },
+    {
+      "filename": "f9f53241-3233-43c1-88b6-15d68160a4f0.jpg",
+      "url": "https://storage.e.jimdo.com/image/f9f53241-3233-43c1-88b6-15d68160a4f0.jpg"
+    }
+  ],
+  "all_pdfs": [
+    {
+      "filename": "Beitragsordnung.pdf",
+      "url": "https://storage.e.jimdo.com/file/c60ec57e-bb2f-49b8-84b5-4919d1e89b10/Beitragsordnung.pdf"
+    },
+    {
+      "filename": "Aufnahmeantrag für Vereinsmitglieder 2023-02-26.pdf",
+      "url": "https://storage.e.jimdo.com/file/31954823-dfcf-4752-8302-30ebad4447f6/Aufnahmeantrag%20f%C3%BCr%20Vereinsmitglieder%202023-02-26.pdf"
+    },
+    {
+      "filename": "Vereinssatzung Webseite.pdf",
+      "url": "https://storage.e.jimdo.com/file/c29ae8c0-cf1c-43cc-b5df-edb2873c514e/Vereinssatzung%20Webseite.pdf"
+    }
+  ]
+}
