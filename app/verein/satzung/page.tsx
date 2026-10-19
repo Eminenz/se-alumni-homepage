@@ -62,13 +62,39 @@ export default function SatzungPage() {
                       </p>
                     );
                   }
-                  if (block.type === "ul") {
+                  if (block.type === "clauses") {
                     return (
-                      <ul key={idx} className="list-disc pl-6 space-y-2 my-3">
-                        {block.items.map((item, itemIdx) => (
-                          <li key={itemIdx}>{item}</li>
+                      <div key={idx} className="space-y-3 my-3">
+                        {block.items.map((clause) => (
+                          <div key={clause.number} className="flex items-start gap-2.5">
+                            <span className="font-semibold text-primary shrink-0 min-w-[2rem]">
+                              {clause.number}
+                            </span>
+                            <div className="flex-1">
+                              <p className="m-0">{clause.text}</p>
+                              {clause.subitems && clause.subitems.length > 0 && (
+                                <div className="mt-2 pl-2 space-y-1.5">
+                                  {clause.subitems.map((sub, subIdx) =>
+                                    sub.label ? (
+                                      <div key={subIdx} className="flex items-start gap-2">
+                                        <span className="font-semibold text-primary shrink-0 min-w-[1.5rem]">
+                                          {sub.label}
+                                        </span>
+                                        <span>{sub.text}</span>
+                                      </div>
+                                    ) : (
+                                      <div key={subIdx} className="flex items-start gap-2 pl-2">
+                                        <span className="text-primary shrink-0">○</span>
+                                        <span>{sub.text}</span>
+                                      </div>
+                                    )
+                                  )}
+                                </div>
+                              )}
+                            </div>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     );
                   }
                   if (block.type === "sublist") {
@@ -78,7 +104,9 @@ export default function SatzungPage() {
                         <dl className="pl-4 space-y-2">
                           {block.items.map((item) => (
                             <div key={item.label} className="flex gap-2">
-                              <dt className="font-semibold text-primary shrink-0">{item.label}</dt>
+                              <dt className="font-semibold text-primary shrink-0 min-w-[1.5rem]">
+                                {item.label}
+                              </dt>
                               <dd>{item.text}</dd>
                             </div>
                           ))}

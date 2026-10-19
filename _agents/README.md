@@ -16,8 +16,8 @@ Alle dynamischen Vereinsdaten und Rechtstexte sind strikt von den UI-Komponenten
 - [`content/club.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/club.ts): Zentrale Vereins-Stammdaten (Name, `c/o`-Geschäftsstelle, Vereinsregister, IBAN/BIC, Mitgliedsbeiträge, Deutschlandstipendium, standardisierte PDF-Download-Pfade).
 - [`content/board.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/board.ts): Aktuelle Vorstandsmitglieder und Kassenprüfer (speist sowohl die Startseite als auch automatisch das Impressum über `isVertretungsberechtigt`).
 - [`content/events.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/events.ts): Ankündigung des nächsten Alumni-Treffens sowie die lückenlose Veranstaltungs-Chronik von 2018 bis 2024.
-- [`content/satzung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/satzung.ts): Vollständiger, wortgetreuer Text der Vereinssatzung (§§ 1–16).
-- [`content/beitragsordnung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/beitragsordnung.ts): Vollständiger, wortgetreuer Text der Beitrags- und Kassenordnung (§§ 1–7).
+- [`content/satzung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/satzung.ts): Vollständiger, wortgetreuer Text der Vereinssatzung (§§ 1–15).
+- [`content/beitragsordnung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/beitragsordnung.ts): Vollständiger, wortgetreuer Text der Beitrags- und Kassenordnung (§§ 1–4).
 - [`content/navigation.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/navigation.ts): Zentrale Navigationsstruktur für Desktop-Header, Mobile-Menü und Footer.
 
 ---

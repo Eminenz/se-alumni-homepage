@@ -86,8 +86,8 @@ se-alumni-homepage/
 │   ├── club.ts           # Stammdaten, Adresse, IBAN, Beiträge, PDF-Pfade, Stipendium
 │   ├── board.ts          # Vorstandsmitglieder & Kassenprüfer (inkl. Impressum-Steuerung)
 │   ├── events.ts         # Alumni-Seminare & Chronik (2018–2024+)
-│   ├── satzung.ts        # Vollständiger Wortlaut der Vereinssatzung (§§ 1–16)
-│   ├── beitragsordnung.ts# Vollständiger Wortlaut der Beitrags- und Kassenordnung (§§ 1–7)
+│   ├── satzung.ts        # Vollständiger Wortlaut der Vereinssatzung (§§ 1–15)
+│   ├── beitragsordnung.ts# Vollständiger Wortlaut der Beitrags- und Kassenordnung (§§ 1–4)
 │   └── navigation.ts     # Zentrale Menüstruktur für Header & Footer
 ├── public/               # Statische Assets
 │   ├── downloads/        # Offizielle PDFs (aufnahmeantrag.pdf, vereinssatzung.pdf, beitragsordnung.pdf)

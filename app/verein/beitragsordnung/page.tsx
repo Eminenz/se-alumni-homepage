@@ -95,11 +95,13 @@ export default function BeitragsordnungPage() {
               )}
 
               {sec.bullets && sec.bullets.length > 0 && (
-                <ul className="list-disc pl-5 space-y-2 text-sm mt-4">
+                <ol className="list-decimal pl-5 space-y-2 text-sm mt-4 marker:font-semibold marker:text-primary">
                   {sec.bullets.map((bullet, idx) => (
-                    <li key={idx}>{bullet}</li>
+                    <li key={idx} className="pl-1">
+                      {bullet}
+                    </li>
                   ))}
-                </ul>
+                </ol>
               )}
             </section>
           ))}

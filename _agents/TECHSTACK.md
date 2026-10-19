@@ -96,9 +96,9 @@ Alle Vereinsdaten und Rechtstexte sind zentral im Ordner [`content/`](file:///d:
 - **[`content/events.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/events.ts):**
   - Enthält `upcomingAnnouncement` für das nächste geplante Treffen sowie das typisierte Array `events` mit der vollständigen Historie aller Alumni-Seminare von **2018 bis 2024** (Datum, Ort, Anfahrt, Keynote, Agenda, Fachvorträge, Organisatoren, Kosten).
 - **[`content/satzung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/satzung.ts):**
-  - Vollständiger, ungekürzter Wortlaut der Vereinssatzung (§§ 1 bis 16) als typisierte Datenstruktur für [`app/verein/satzung/page.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/app/verein/satzung/page.tsx) inkl. interaktivem Inhaltsverzeichnis.
+  - Vollständiger, ungekürzter Wortlaut der Vereinssatzung (§§ 1 bis 15) als typisierte Datenstruktur für [`app/verein/satzung/page.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/app/verein/satzung/page.tsx) inkl. interaktivem Inhaltsverzeichnis.
 - **[`content/beitragsordnung.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/beitragsordnung.ts):**
-  - Vollständiger, wortgetreuer Text der Beitrags- und Kassenordnung (§§ 1 bis 7) für [`app/verein/beitragsordnung/page.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/app/verein/beitragsordnung/page.tsx).
+  - Vollständiger, wortgetreuer Text der Beitrags- und Kassenordnung (§§ 1 bis 4) für [`app/verein/beitragsordnung/page.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/app/verein/beitragsordnung/page.tsx).
 - **[`content/navigation.ts`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/content/navigation.ts):**
   - Einheitliche Menü- und Linkstruktur für [`components/Header.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/components/Header.tsx) und [`components/Footer.tsx`](file:///d:/Emi%20Entertainment/workspace/se-alumni-homepage/components/Footer.tsx).
 
