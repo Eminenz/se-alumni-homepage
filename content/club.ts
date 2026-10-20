@@ -31,6 +31,12 @@ export const clubInfo = {
     alumniFormatted: "50,- EUR",
     guestSeminarFee: "35 €",
   },
+  membershipBenefits: [
+    "Kostenlose Teilnahme am jährlichen Alumni-Seminar",
+    "Vernetzung und Austausch zwischen Studierenden und Absolventen",
+    "Stimmrecht in der Mitgliederversammlung",
+    "Förderung von Studierenden (z.B. Deutschlandstipendium)",
+  ],
   stipendium: {
     university: "Universität Augsburg",
     period: "01.10.2024 - 30.09.2025",

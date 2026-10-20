@@ -31,61 +31,57 @@ export default function MembershipPage() {
           </p>
         </div>
 
-        {/* Pricing / Category Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          {/* Students Card */}
-          <div className="border-2 border-gray-200 rounded-lg p-6 flex flex-col justify-between hover:border-primary transition-colors">
-            <div>
-              <div className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-                Aktuell Immatrikulierte
-              </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Studierende</h2>
-              <div className="text-4xl font-extrabold text-primary mb-4">
-                {clubInfo.membershipFees.students}{" "}
-                <span className="text-base font-normal text-gray-500">/ Jahr</span>
-              </div>
-              <ul className="space-y-2 text-gray-700 mb-6 text-sm">
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
-                  Kostenlose Teilnahme an den Alumni-Seminaren
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
-                  Direkter Kontakt zu Absolventen & Mentoren
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" />
-                  Teilnahme an Mitgliederversammlungen
-                </li>
-              </ul>
+        {/* Combined Benefits & Pricing Card */}
+        <div className="border-2 border-primary rounded-lg overflow-hidden mb-12 shadow-sm bg-white grid grid-cols-1 md:grid-cols-5">
+          {/* Left: Shared Benefits */}
+          <div className="md:col-span-3 p-6 md:p-8 flex flex-col justify-center">
+            <div className="text-xs font-semibold text-primary uppercase tracking-wider mb-1">
+              Für Studierende &amp; Alumni
             </div>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 font-headline mb-5">
+              Deine Vorteile als Mitglied
+            </h2>
+            <ul className="space-y-3.5 text-gray-700 text-base">
+              {clubInfo.membershipBenefits.map((benefit) => (
+                <li key={benefit} className="flex items-start">
+                  <CheckCircle className="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                  <span>{benefit}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Alumni Card */}
-          <div className="border-2 border-primary bg-[#f8faff] rounded-lg p-6 flex flex-col justify-between">
-            <div>
-              <div className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-                Absolventen
+          {/* Right: Membership Fees */}
+          <div className="md:col-span-2 bg-primary-surface border-t md:border-t-0 md:border-l border-gray-200 p-6 md:p-8 flex flex-col justify-center">
+            <div className="text-xs font-semibold text-primary uppercase tracking-wider mb-4">
+              Jahresbeitrag
+            </div>
+            <div className="divide-y divide-gray-200">
+              <div className="pb-4 flex items-baseline justify-between gap-4">
+                <div>
+                  <div className="text-lg font-bold text-gray-900">Studierende</div>
+                  <div className="text-xs text-gray-500">Aktuell Immatrikulierte</div>
+                </div>
+                <div className="text-right flex-shrink-0">
+                  <span className="text-3xl font-extrabold text-primary">
+                    {clubInfo.membershipFees.students}
+                  </span>{" "}
+                  <span className="text-sm text-gray-500">/ Jahr</span>
+                </div>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Alumni</h2>
-              <div className="text-4xl font-extrabold text-primary mb-4">
-                {clubInfo.membershipFees.alumni}{" "}
-                <span className="text-base font-normal text-gray-500">/ Jahr</span>
+
+              <div className="pt-4 flex items-baseline justify-between gap-4">
+                <div>
+                  <div className="text-lg font-bold text-gray-900">Alumni</div>
+                  <div className="text-xs text-gray-500">Absolventen</div>
+                </div>
+                <div className="text-right flex-shrink-0">
+                  <span className="text-3xl font-extrabold text-primary">
+                    {clubInfo.membershipFees.alumni}
+                  </span>{" "}
+                  <span className="text-sm text-gray-500">/ Jahr</span>
+                </div>
               </div>
-              <ul className="space-y-2 text-gray-700 mb-6 text-sm">
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-primary mr-2 flex-shrink-0" />
-                  Kostenloser Zugang zum jährlichen Seminar
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-primary mr-2 flex-shrink-0" />
-                  Unterstützung des Deutschlandstipendiums
-                </li>
-                <li className="flex items-center">
-                  <CheckCircle className="w-4 h-4 text-primary mr-2 flex-shrink-0" />
-                  Stimmrecht in der Mitgliederversammlung
-                </li>
-              </ul>
             </div>
           </div>
         </div>
