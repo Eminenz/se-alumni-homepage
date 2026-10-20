@@ -31,8 +31,22 @@ export default function EventsPage() {
               <h2 className="text-xl md:text-2xl font-bold text-primary font-headline mb-2">
                 {upcomingEventBanner.title}
               </h2>
-              <p className="text-gray-700 text-sm md:text-base">
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 {upcomingEventBanner.subtitle}
+                {upcomingEventBanner.contactEmail && (
+                  <>
+                    {" "}
+                    Bei Interesse meldet Euch gerne mit Thema, kurzer Beschreibung und gewünschtem
+                    Zeitrahmen unter{" "}
+                    <a
+                      href={`mailto:${upcomingEventBanner.contactEmail}`}
+                      className="text-primary underline hover:text-primary-hover transition-colors"
+                    >
+                      {upcomingEventBanner.contactEmail}
+                    </a>
+                    .
+                  </>
+                )}
               </p>
             </div>
           </div>

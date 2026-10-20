@@ -41,6 +41,8 @@ export default function HomePage() {
       {/* Banner 1: Next Alumni Meeting */}
       <CtaBanner
         title={upcomingEventBanner.title}
+        subtitle={upcomingEventBanner.subtitle}
+        contactEmail={upcomingEventBanner.contactEmail}
         buttonText={upcomingEventBanner.buttonText}
         buttonHref={upcomingEventBanner.buttonHref}
       />

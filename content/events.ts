@@ -15,8 +15,10 @@ export interface AlumniEvent {
 }
 
 export const upcomingEventBanner = {
-  title: "Das nächste Alumni-Treffen befindet sich bereits in Planung",
-  subtitle: "Das nächste Alumni-Treffen befindet sich bereits in Planung – stay tuned!",
+  title: "Save the Date: Alumni-Seminar am Samstag, 21. November 2026 in München",
+  subtitle:
+    "Gestaltet das Programm mit! Wir suchen kurze und längere Vorträge aus Industrie und Forschung sowie spontane Lightning Talks (5–10 Minuten) – von technischen Deep Dives und Projektberichten bis hin zu Erfahrungen aus Gründung, Karriere oder Promotion.",
+  contactEmail: "alumniseminar-orga@maximilianherrmann.de",
   buttonText: "Mehr erfahren",
   buttonHref: "/veranstaltungen/",
 };
